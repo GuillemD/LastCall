@@ -140,10 +140,10 @@ header p {
 .intro-text H1 {
 	font-size: 60px;
 	text-transform: uppercase;
-	color: #fff;
+	color: #332f2f;
 }
 .btn-default {
-	color: #fff;
+	color: #332f2f;
 	font-family: 'Open Sans', sans-serif;
 	background-color: transparent;
 	border: 2px solid rgba(255,255,255,0.8);
