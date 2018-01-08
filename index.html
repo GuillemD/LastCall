@@ -74,24 +74,25 @@
       <hr>
       <div class="clearfix"></div>
       <p><strong>Last Call</strong> is the result of a videogame project for the Artificial Intelligence subject.</p>
+	  <p>From the first hours of the day work needs to be done everywhere. The first customers arrive and they need to be attended. The desks starts getting crowded and people dislike waiting too much... The next step is to go through the security control and, oh boy, hope you don't bring anything forbidden because the security guards won't have courtesy. Once they've gone through that they are finally ready to take the flight. Make sure they have something to eat, but be careful. There's rude people everywhere so be prepared for the littering. Then the night comes and the airport must be cleaned from top to bottom for the next day. And the most important thing, make sure the passengers hear the LAST CALL, we don't want them to miss their flight!</p>
     </div>
     <div class="space"></div>
     <div class="row">
       <div class="col-md-3 col-sm-6 service"> <i class="fa fa-desktop"></i>
-        <h4>Web Design</h4>
-        <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
+        <h4>Desk Zone</h4>
+        <p>Visitors enter the airport and will find for a desk. If there are none available they will exit being angry. You can buy three extra desks and one specific for VIPs. Then visitors will go to the queue to pass the security control.</p>
       </div>
       <div class="col-md-3 col-sm-6 service"> <i class="fa fa-gears"></i>
-        <h4>App Development</h4>
-        <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque.</p>
+        <h4>Security control</h4>
+        <p>There are also two types of controls: the normal one and the vip exclusive. Vips that go through a normal one will also be pissed off.</p>
       </div>
       <div class="col-md-3 col-sm-6 service"> <i class="fa fa-rocket"></i>
-        <h4>Branding</h4>
-        <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam.</p>
+        <h4>Going to the plane</h4>
+        <p>Before going to the plane, visitors can buy food at the vending machines. You, as the owner, can also buy more machines so people can have a snack!</p>
       </div>
       <div class="col-md-3 col-sm-6 service"> <i class="fa fa-line-chart"></i>
-        <h4>Marketing</h4>
-        <p>Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque.</p>
+        <h4>Game Over</h4>
+        <p>When finishing the game, you can see the stats. How many days have passed, the number of normal people that completed the cycles and the amount of VIPs attended correctly.</p>
       </div>
     </div>
   </div>
@@ -103,109 +104,51 @@
       <h2>Behaviour Trees</h2>
       <hr>
       <div class="clearfix"></div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamcommodo nibh ante facilisis.</p>
+      <p>These are the behaviour trees that the agents have. The pictures belong to the manual design. The BTs are then implemented using NodeCanvas in Unity.</p>
     </div>
     <div class="categories">
       <ul class="cat">
         <li>
           <ol class="type">
             <li><a href="#" data-filter="*" class="active">All</a></li>
-            <li><a href="#" data-filter=".web">Web Design</a></li>
-            <li><a href="#" data-filter=".app">App Development</a></li>
-            <li><a href="#" data-filter=".branding">Branding</a></li>
+            <li><a href="#" data-filter=".nv">NormalVisitor</a></li>
+            <li><a href="#" data-filter=".vip">VipVisitor</a></li>
+            <li><a href="#" data-filter=".janitor">Janitor</a></li>
           </ol>
         </li>
       </ul>
       <div class="clearfix"></div>
     </div>
     <div class="row">
-      <div class="portfolio-items">
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/01.jpg" rel="prettyPhoto">
+      <div class="bt-items">
+        <div class="col-sm-6 col-md-3 col-lg-3 nv">
+          <div class="bt-item">
+            <div class="hover-bg"> <a href="img/portfolio/NV.jpg" rel="prettyPhoto">
               <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>Web Design</small>
+                <small>Normal Visitor</small>
                 <div class="clearfix"></div>
               </div>
-              <img src="img/portfolio/01.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+              <img src="img/portfolio/NV.jpg" class="img-responsive" alt="Normal Visitor"> </a> </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 app">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/02.jpg" rel="prettyPhoto">
+        <div class="col-sm-6 col-md-3 col-lg-3 vip">
+          <div class="bt-item">
+            <div class="hover-bg"> <a href="img/portfolio/VIP.jpg" rel="prettyPhoto">
               <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>App Development</small>
+                <small>VIP</small>
                 <div class="clearfix"></div>
               </div>
-              <img src="img/portfolio/02.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+              <img src="img/portfolio/VIP.jpg" class="img-responsive" alt="VIP"> </a> </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/03.jpg" rel="prettyPhoto">
+        <div class="col-sm-6 col-md-3 col-lg-3 janitor">
+          <div class="bt-item">
+            <div class="hover-bg"> <a href="img/portfolio/JANITOR.jpg" rel="prettyPhoto">
               <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>Web Design</small>
+                <small>Janitor</small>
                 <div class="clearfix"></div>
               </div>
-              <img src="img/portfolio/03.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/04.jpg" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>Web Design</small>
-                <div class="clearfix"></div>
-              </div>
-              <img src="img/portfolio/04.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 app">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/05.jpg" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>App Development</small>
-                <div class="clearfix"></div>
-              </div>
-              <img src="img/portfolio/05.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 branding">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/06.jpg" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>Branding</small>
-                <div class="clearfix"></div>
-              </div>
-              <img src="img/portfolio/06.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 branding app">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/07.jpg" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>App Development, Branding</small>
-                <div class="clearfix"></div>
-              </div>
-              <img src="img/portfolio/07.jpg" class="img-responsive" alt="Project Title"> </a> </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3 web">
-          <div class="portfolio-item">
-            <div class="hover-bg"> <a href="img/portfolio/08.jpg" rel="prettyPhoto">
-              <div class="hover-text">
-                <h4>Project Title</h4>
-                <small>Web Design</small>
-                <div class="clearfix"></div>
-              </div>
-              <img src="img/portfolio/08.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+              <img src="img/portfolio/JANITOR.jpg" class="img-responsive" alt="Janitor"> </a> </div>
           </div>
         </div>
       </div>
@@ -219,24 +162,24 @@
     <div class="section-title center">
       <h2>Meet the Team</h2>
       <hr>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamcommodo nibh ante facilisis.</p>
+      <p>We are two students from the UPC (Universitat Politècnica de Catalunya) developing a project for the Artificial Intelligence subject.</p>
     </div>
     <div id="row">
       <div class="col-md-3 col-sm-6 team">
-        <div class="thumbnail"> <img src="img/team/01.jpg" alt="..." class="img-circle team-img">
+        <div class="thumbnail"> <img src="img/team/GA.jpg" alt="..." class="img-circle team-img">
           <div class="caption">
-            <h3>Guillem Arman</h3>
-            <p>Founder / CEO</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>Guillem Arman Janer</h3>
+            <p>Co-Developer and Designer</p>
+            <p>Besides the designing part, I have mainly worked on the UI implementation, the Buying and Currency systems, the Day/Night system and the music.</p>
           </div>
         </div>
       </div>
       <div class="col-md-3 col-sm-6 team">
-        <div class="thumbnail"> <img src="img/team/02.jpg" alt="..." class="img-circle team-img">
+        <div class="thumbnail"> <img src="img/team/GD.png" alt="..." class="img-circle team-img">
           <div class="caption">
-            <h3>Guillem Dominguez</h3>
-            <p>Web Designer</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>Guillem Domínguez Ruiz de Villa</h3>
+            <p>Co-Developer and Designer</p>
+            <p>My work has been focused on implementing the steering behaviours and behaviour trees for each type of agent using NodeCanvas tasks, the Spawning system and the Game Manager. I also helped in the design.</p>
           </div>
         </div>
       </div>
@@ -249,18 +192,12 @@
     <div class="section-title center">
       <h2>Contact Us</h2>
       <hr>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamcommodo nibh ante facilisis.</p>
+      <p>If you want to, you can contact us by sending an e-mail to the following addresses:</p>
     </div>
-    <div class="col-md-8 col-md-offset-2">
-      <div class="col-md-4"> <i class="fa fa-map-marker"></i>
-        <p>4321 California St,<br>
-          San Francisco, CA 12345</p>
-      </div>
+    <div class="col-md-8 col-md-offset-2">  
       <div class="col-md-4"> <i class="fa fa-envelope-o"></i>
-        <p>info@company.com</p>
-      </div>
-      <div class="col-md-4"> <i class="fa fa-phone"></i>
-        <p> +1 123 456 1234</p>
+        <p>guillemarman8@gmail.com</p>
+		<p>gdrdvilla@gmail.com</p>
       </div>
       <hr>
       <div class="clearfix"></div>
@@ -292,20 +229,6 @@
     </div>
   </div>
 </div>
-</div>
-<div id="social-section">
-  <div class="container">
-    <div class="social">
-      <ul>
-        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-        <li><a href="#"><i class="fa fa-github"></i></a></li>
-        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-      </ul>
-    </div>
-  </div>
 </div>
 <div id="footer">
   <div class="container">
